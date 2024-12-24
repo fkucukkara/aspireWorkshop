@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/aspireWorkshop/DesignTimeBuild
+/.vs/aspireWorkshop/FileContentIndex
+/.vs
+/aspireWorkshop.API/bin
+/aspireWorkshop.API/obj
+/aspireWorkshop.AppHost/bin
+/aspireWorkshop.AppHost/obj
+/aspireWorkshop.Data/bin
+/aspireWorkshop.Data/obj
+/aspireWorkshop.Domain/bin
+/aspireWorkshop.Domain/obj
+/aspireWorkshop.ServiceDefaults/bin
+/aspireWorkshop.ServiceDefaults/obj

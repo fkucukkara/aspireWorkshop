@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aspireWorkshop.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14b301fa6742af41a326f3735231c181728e1a16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6094ade228b84b2a87073c147c24bcf7e65f2fe3")]
 [assembly: System.Reflection.AssemblyProductAttribute("aspireWorkshop.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aspireWorkshop.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

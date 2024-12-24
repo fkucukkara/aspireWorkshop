@@ -189,7 +189,6 @@ C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\aspireWorkshop.API\obj\Deb
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\aspireWorkshop.API\bin\Debug\net9.0\global.json
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\bin\Debug\net9.0\appsettings.json
-C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\bin\Debug\net9.0\global.json
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\bin\Debug\net9.0\aspireWorkshop.API.staticwebassets.endpoints.json
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\bin\Debug\net9.0\aspireWorkshop.API.exe
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\bin\Debug\net9.0\aspireWorkshop.API.deps.json

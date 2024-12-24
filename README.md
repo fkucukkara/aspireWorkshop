@@ -40,18 +40,18 @@ This project uses **Entity Framework Core** for ORM, providing a simple yet powe
    git clone https://github.com/fkucukkara/aspireWorkshop.git
    ```
 
-3. Restore dependencies:
+2. Restore dependencies:
    ```bash
    dotnet restore
    ```
 
-1. 4. Apply migrations and update the database (just in case):
+3. Apply migrations and update the database (just in case):
    ```bash
    dotnet ef migrations add InitialCreate
    dotnet ef database update
    ```
 
-5. Run the application:
+4. Run the application:
    ```bash
    cd src\aspireWorkshop.AppHost
    dotnet run

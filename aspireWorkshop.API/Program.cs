@@ -23,7 +23,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/", async (IUnitOfWork unitOfWork) =>
+var v1 = app.MapGroup("/aspireWorkshop/v1/posts");
+
+v1.MapGet("/", async (IUnitOfWork unitOfWork) =>
 {
     var products = await unitOfWork.Repository<Post>().GetAllAsync();
     return TypedResults.Ok(products);

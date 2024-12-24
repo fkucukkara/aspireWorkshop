@@ -1,4 +1,4 @@
-# Aspire Playground
+# Aspire Workshop
 
 ## Overview
 This project is a **.NET 9 API** built as an **Aspire Playground**, showcasing best practices for implementing:

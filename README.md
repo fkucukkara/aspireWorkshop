@@ -37,7 +37,7 @@ This project uses **Entity Framework Core** for ORM, providing a simple yet powe
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/aspire-playground.git
+   git clone https://github.com/fkucukkara/aspireWorkshop.git
    ```
 
 2. Navigate to the project directory:

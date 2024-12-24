@@ -1,4 +1,5 @@
 ﻿using aspireWorkshop.API.Data;
+using aspireWorkshop.API.Domain;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage;
 
@@ -13,6 +14,7 @@ public static class WebApplicationExtensions
 
         await EnsureDatabaseAsync(dbContext);
         await RunMigrationsAsync(dbContext);
+        await SeedDatabaseAsync(dbContext);
     }
 
     private static async Task EnsureDatabaseAsync(PostContext dbContext)
@@ -33,6 +35,25 @@ public static class WebApplicationExtensions
         await strategy.ExecuteAsync(async () =>
         {
             await dbContext.Database.MigrateAsync();
+        });
+    }
+
+    private static async Task SeedDatabaseAsync(PostContext dbContext)
+    {
+        var strategy = dbContext.Database.CreateExecutionStrategy();
+        await strategy.ExecuteAsync(async () =>
+        {
+            // Avoid duplicating seed data
+            if (dbContext.Posts is not null && await dbContext.Posts.AnyAsync() is false)
+            {
+                dbContext.Posts.AddRange(new List<Post>
+                {
+                    new Post {Content = "Hello World!" },
+                    new Post {Content = "This is a seeded post." }
+                });
+
+                await dbContext.SaveChangesAsync();
+            }
         });
     }
 }

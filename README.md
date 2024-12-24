@@ -61,6 +61,9 @@ This project uses **Entity Framework Core** for ORM, providing a simple yet powe
    dotnet run
    ```
 
+## How to Access the Database
+The connection string `ConnectionStrings__sqlDb` is available in the Aspire Dashboard under the aspireworkshop-api project details section.
+
 ## License
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 

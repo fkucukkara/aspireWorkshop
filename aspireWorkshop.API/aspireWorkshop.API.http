@@ -1,6 +1,0 @@
-@aspireWorkshop.API_HostAddress = http://localhost:5072
-
-GET {{aspireWorkshop.API_HostAddress}}/aspireWorkshop/v1/posts
-Accept: application/json
-
-###

@@ -40,11 +40,6 @@ This project uses **Entity Framework Core** for ORM, providing a simple yet powe
    git clone https://github.com/fkucukkara/aspireWorkshop.git
    ```
 
-2. Navigate to the project directory:
-   ```bash
-   cd aspire-playground
-   ```
-
 3. Restore dependencies:
    ```bash
    dotnet restore
@@ -58,6 +53,7 @@ This project uses **Entity Framework Core** for ORM, providing a simple yet powe
 
 5. Run the application:
    ```bash
+   cd src\aspireWorkshop.AppHost
    dotnet run
    ```
 

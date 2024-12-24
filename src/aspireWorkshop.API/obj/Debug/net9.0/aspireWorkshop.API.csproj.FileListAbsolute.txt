@@ -368,7 +368,6 @@ C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\obj
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.aspireWorkshop.API.props
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.aspireWorkshop.API.props
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\obj\Debug\net9.0\aspireWo.BAA5089C.Up2Date
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\obj\Debug\net9.0\aspireWorkshop.API.dll
 C:\Users\Fatih_Kucukkara\source\github\aspireWorkshop\src\aspireWorkshop.API\obj\Debug\net9.0\refint\aspireWorkshop.API.dll

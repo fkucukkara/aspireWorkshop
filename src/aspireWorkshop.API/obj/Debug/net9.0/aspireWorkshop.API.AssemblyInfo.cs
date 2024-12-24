@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aspireWorkshop.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6094ade228b84b2a87073c147c24bcf7e65f2fe3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc8abfba54fc920c9cc315a3b65ff50fe79fbdbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("aspireWorkshop.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aspireWorkshop.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -15,3 +15,9 @@
 /aspireWorkshop.Domain/obj
 /aspireWorkshop.ServiceDefaults/bin
 /aspireWorkshop.ServiceDefaults/obj
+/src/aspireWorkshop.API/obj/Debug/net9.0/aspireWorkshop.API.AssemblyInfo.cs
+/src/aspireWorkshop.API/obj/Debug/net9.0/aspireWorkshop.API.AssemblyInfoInputs.cache
+/src/aspireWorkshop.AppHost/obj/Debug/net9.0/aspireWorkshop.AppHost.AssemblyInfo.cs
+/src/aspireWorkshop.AppHost/obj/Debug/net9.0/aspireWorkshop.AppHost.AssemblyInfoInputs.cache
+/src/aspireWorkshop.ServiceDefaults/obj/Debug/net9.0/aspireWorkshop.ServiceDefaults.AssemblyInfo.cs
+/src/aspireWorkshop.ServiceDefaults/obj/Debug/net9.0/aspireWorkshop.ServiceDefaults.AssemblyInfoInputs.cache

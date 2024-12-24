@@ -1,5 +1,4 @@
 ﻿using aspireWorkshop.API.Domain;
-using Microsoft.EntityFrameworkCore;
 
 namespace aspireWorkshop.API.Data;
 public class PostContext : DbContext

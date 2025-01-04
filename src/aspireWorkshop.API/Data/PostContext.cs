@@ -1,11 +1,7 @@
 ﻿using aspireWorkshop.API.Domain;
 
 namespace aspireWorkshop.API.Data;
-public class PostContext : DbContext
+public class PostContext(DbContextOptions options) : DbContext(options)
 {
-    public PostContext(DbContextOptions options) : base(options)
-    {
-    }
-
     public DbSet<Post>? Posts { get; set; }
 }

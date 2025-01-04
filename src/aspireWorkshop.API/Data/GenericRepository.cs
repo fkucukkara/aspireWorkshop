@@ -2,14 +2,9 @@
 using System.Linq.Expressions;
 
 namespace aspireWorkshop.API.Data;
-public class GenericRepository<T> : IRepository<T> where T : Entity
+public class GenericRepository<T>(DbContext context) : IRepository<T> where T : Entity
 {
-    private readonly DbSet<T> _dbSet;
-
-    public GenericRepository(DbContext context)
-    {
-        _dbSet = context.Set<T>();
-    }
+    private readonly DbSet<T> _dbSet = context.Set<T>();
 
     public IQueryable<T> GetQueryable()
     {

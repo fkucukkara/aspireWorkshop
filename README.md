@@ -18,7 +18,6 @@ The project serves as a learning and experimentation ground for advanced .NET de
 
 ## Description
 The **Generic Repository** encapsulates common database operations like adding, updating, deleting, and retrieving entities. It promotes reusability and separation of concerns by abstracting data access logic from business logic.
-
 The **Unit of Work** ensures that all database changes made during a single operation are committed or rolled back as a unit, maintaining data integrity.
 
 ### Key Components:

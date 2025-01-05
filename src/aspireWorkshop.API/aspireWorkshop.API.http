@@ -4,3 +4,29 @@ GET {{aspireWorkshop.API_HostAddress}}/aspireWorkshop/v1/posts
 Accept: application/json
 
 ###
+
+GET {{aspireWorkshop.API_HostAddress}}/aspireWorkshop/v1/posts/1
+Accept: application/json
+
+###
+
+POST {{aspireWorkshop.API_HostAddress}}/aspireWorkshop/v1/posts
+Content-Type: application/json
+{
+  "content": "This is a sample post."
+}
+
+###
+
+PUT {{aspireWorkshop.API_HostAddress}}/aspireWorkshop/v1/posts/3
+Content-Type: application/json
+{
+  "content": "This is an updated post."
+}
+
+###
+
+DELETE {{aspireWorkshop.API_HostAddress}}/aspireWorkshop/v1/posts/3
+Accept: application/json
+
+###

@@ -48,8 +48,8 @@ public static class WebApplicationExtensions
             {
                 dbContext.Posts.AddRange(new List<Post>
                 {
-                    new Post {Content = "Hello World!" },
-                    new Post {Content = "This is a seeded post." }
+                    new() {Content = "Hello World!" },
+                    new() {Content = "This is a seeded post." }
                 });
 
                 await dbContext.SaveChangesAsync();

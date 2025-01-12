@@ -1,4 +1,4 @@
-﻿using aspireWorkshop.API.Domain;
+﻿using aspireWorkshop.API.Domain.Abstractions;
 
 namespace aspireWorkshop.API.Data;
 public class UnitOfWork(PostContext context) : IUnitOfWork

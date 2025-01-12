@@ -1,5 +1,4 @@
 ﻿using aspireWorkshop.API.Data;
-using aspireWorkshop.API.Domain;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage;
 

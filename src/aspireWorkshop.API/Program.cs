@@ -1,5 +1,4 @@
 using aspireWorkshop.API.Data;
-using aspireWorkshop.API.Domain;
 using aspireWorkshop.API.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);

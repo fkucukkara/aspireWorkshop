@@ -1,6 +1,4 @@
-﻿using aspireWorkshop.API.Domain.Abstractions;
-
-namespace aspireWorkshop.API.Data;
+﻿namespace aspireWorkshop.API.Data;
 public class UnitOfWork(PostContext context) : IUnitOfWork
 {
     public IRepository<T> Repository<T>() where T : Entity

@@ -1,5 +1,4 @@
-﻿using aspireWorkshop.API.Domain.Abstractions;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 
 namespace aspireWorkshop.API.Data;
 public class GenericRepository<T>(DbContext context) : IRepository<T> where T : Entity

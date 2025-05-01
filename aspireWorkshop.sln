@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 		Directory.Packages.props = Directory.Packages.props
 		global.json = global.json
+		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -44,5 +45,8 @@ Global
 		{186AD345-5351-4985-B088-FFCA444645B8} = {4A5610F5-DBC5-433A-948D-E24187348E6D}
 		{D75BD708-F330-4513-B769-2C08D0D3C990} = {4A5610F5-DBC5-433A-948D-E24187348E6D}
 		{44BBC523-0C8C-48E1-A77C-1BFCB0EAC7EC} = {4A5610F5-DBC5-433A-948D-E24187348E6D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAB8A641-114D-44E5-A9D2-E7B7257FC997}
 	EndGlobalSection
 EndGlobal
